@@ -1,0 +1,52 @@
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+html, body{
+    height: 100%;
+}
+#text{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    left: 15px;
+    top: 150px;
+    grid-template-columns: repeat(3, 1fr);
+    
+    color:red;
+    font-size:4mm;
+}
+
+#text2{
+    position:absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    left: 15px;
+    top: 180px;
+    height: 100%;
+    width: 100%;
+    color:red;
+    font-size:4mm;
+    
+    
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
+    height: 100%;
+    padding: 0 10px;
+    width: 100%;
+    position:absolute;
+}
+
+img{
+    width: 350px;
+    height: auto;
+}
+
+
